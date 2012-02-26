@@ -1,0 +1,5 @@
+h2 {margin: 50px 0 25px 0; border-bottom: 1px solid black;}
+h3 {margin: 10px 0 25px 0; }
+footer { font-style: italic; text-align: center; }
+.navbar {font-size: 12px;}
+.navbar .nav > li > a { padding: 10px 5px 11px; }
