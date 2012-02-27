@@ -1,0 +1,18 @@
+{% include header %}
+
+		<div class="row">
+            <div class="span8">
+				{{ page.content | markdownify }}
+            </div>
+
+            <div class="span4 github">
+                <div class="well">
+                    <a href="https://github.com/benbalter/open-source-alternatives"><img src="https://github.com/github/media/raw/master/logos/github_logo_social_coding_outlined.png" width="150" title="Fork this page on GitHub"><br>
+                    Fork this page on GitHub</a>
+                </div>
+            </div>
+        </div>
+        
+{% include loop %}
+        
+{% include footer %}

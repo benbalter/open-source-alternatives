@@ -1,0 +1,13 @@
+{% assign current_group = "" %}
+{% for page in site.pages %}
+	{% if page.slug != "home"` %}
+		{% if page.group != current_group %}
+			<h2>{{ page.group }}</h2>
+			{% assign current_group = page.group %}
+		{% endif %}
+		<h3 id="{{ page.slug }}">{{ page.title }}</h3>
+		{% include thead %}
+		{{ page.content }}
+		{% include tfooter %}
+	{% endif %}
+{% endfor %}
