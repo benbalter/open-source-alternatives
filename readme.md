@@ -3,7 +3,7 @@ Open-Source Alternatives to Proprietary Enterprise Software
 
 A collaborative list of open-source alternatives to typical government and enterprise software needs
 
-[Live Site](http://benbalter.github.com/open-source-alternatives/)
+**[View the Live Site](http://benbalter.github.com/open-source-alternatives/)**
 
 Additions? Corrections? Improvements? Please feel free to fork this project and send a pull request.
 
