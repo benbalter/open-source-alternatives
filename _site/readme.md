@@ -10,6 +10,10 @@ Additions? Corrections? Improvements? Please feel free to fork this project and 
 Changelog
 _________
 
+## 1.1 ##
+* Converted project to Jekyll to make it easier for others to contribute
+* Categories and sub-categories now sorted alphabetically
+
 ## 1.0 ##
 
 * Converted from PDF to HTML (Bootstrap)
